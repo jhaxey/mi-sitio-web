@@ -33,15 +33,17 @@ h1, h2, h3, h4, h5, h6 {
 {
   "@context": "https://schema.org",
   "@type": "IceCreamShop",
-  "name": "Heladería Artesana Piamonte D Ambrosio",
+  "name": "Piamonte D'Ambrosio Heladería Artesana",
+  "description": "Heladería artesana en Córdoba premiada como mejor helado de turrón de España 2024. Helados elaborados a diario con ingredientes locales por el maestro heladero José Ambrosio.",
   "url": "https://www.heladoartesano.com",
-  "image": "https://www.heladoartesano.com/helado.jpg",
-  "telephone": "+34-624-564-326",
+  "image": "https://www.heladoartesano.com/joseambrosio.jpg",
+  "telephone": "+34624564326",
   "priceRange": "€€",
-  "servesCuisine": ["Helados Artesanos", "Granizados"],
+  "currenciesAccepted": "EUR",
+  "servesCuisine": ["Helados Artesanos", "Granizados", "Helado de Turrón"],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "Paseo Cristo del Descendimiento 4",
+    "streetAddress": "Paseo Cristo del Descendimiento 4, Local 7",
     "addressLocality": "Córdoba",
     "addressRegion": "Andalucía",
     "postalCode": "14009",
@@ -52,8 +54,9 @@ h1, h2, h3, h4, h5, h6 {
     "latitude": 37.87437,
     "longitude": -4.77420
   },
+  "hasMap": "https://maps.google.com/?q=Paseo+Cristo+del+Descendimiento+4,+Córdoba",
   "openingHours": [
-    "Wed-Su 17:30-00:30"
+    "We-Su 17:30-00:30"
   ],
   "sameAs": [
     "https://www.instagram.com/ilpiamonte/"
@@ -68,24 +71,23 @@ h1, h2, h3, h4, h5, h6 {
 <body>
 
 <!-- Navbar (sit on top) -->
-<div class="w3-top">
+<nav class="w3-top" aria-label="Navegación principal">
   <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
     <a href="#home" class="w3-bar-item w3-button">Descubre Piamonte D'Ambrosio</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
     <div class="w3-right w3-hide-small">
       <a href="#about" class="w3-bar-item w3-button">El viaje</a>
-     <!-- <a href="#hojaderuta" class="w3-bar-item w3-button">Objetivos</a> -->
-	  <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#menu" class="w3-bar-item w3-button">Servicios</a>
       <a href="#contact" class="w3-bar-item w3-button">Contacto</a>
     </div>
   </div>
-</div>
+</nav>
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
   <img class="w3-image" src="turron.jpg" alt="Mejor Helado de Turrón de España" width="1600" height="800" loading="eager" fetchpriority="high">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-    <h1 class="w3-xxlarge" style=color:white;>MMAHE 2024</h1>
+    <h1 class="w3-xxlarge" style="color:white;">Heladería Artesana en Córdoba</h1>
+    <p class="w3-large" style="color:white;">Premio al Mejor Helado de Turrón de España 2024</p>
   </div>
 </header>
 
@@ -99,12 +101,12 @@ h1, h2, h3, h4, h5, h6 {
     </div>
 
     <div class="w3-col m6 w3-padding-large">
-      <h1 class="w3-center">Helado Artesano Cordobés</h1><br>
-      <h5 class="w3-center">¿Cómo hicimos el mejor Helado de turrón de jijona?</h5>
-      <p class="w3-large">Nos enorgullece haber sido reconocidos en 2024 como los creadores del mejor helado de turrón de España, una distinción otorgada por expertos del sector heladero y verdaderos conocedores del sabor auténtico.Este galardón representa nuestra inquebrantable dedicación a la excelencia y a preservar el arte de la heladería tradicional española.¿El secreto de nuestro turrón?
-	 <span class="w3-tag w3-light-grey">Hacerlo CORDOBÉS</span> añadiendo en la elaboración del helado , miel de la sierra de córdoba y una mezcla de dos vinos de MORILES , un amontillado y un oloroso de BODEGAS EL MONTE</p>
+      <h2 class="w3-center">Helado Artesano en Córdoba</h2><br>
+      <h3 class="w3-center">¿Cómo hicimos el mejor helado de turrón de jijona de España?</h3>
+      <p class="w3-large">En nuestra <strong>heladería artesana en Córdoba</strong> nos enorgullece haber sido reconocidos en 2024 como los creadores del mejor helado de turrón de España, una distinción otorgada por expertos del sector heladero. Este galardón representa nuestra dedicación a la excelencia y a preservar el arte de la <strong>heladería tradicional cordobesa</strong>. ¿El secreto de nuestro turrón?
+      <span class="w3-tag w3-light-grey">Hacerlo CORDOBÉS</span>: miel de la sierra de Córdoba y una mezcla de dos vinos de Moriles, un amontillado y un oloroso de Bodegas El Monte.</p>
 
-      <p class="w3-large w3-text-grey w3-hide-medium"> La cubeta estaba compuesta como si se tratase de un cuadro, con una lámina comestible con la imagen de "LA CHIQUITA PICONERA" de D. Julio Romero de Torres, que descubrimos ante el jurado , habiendo previamente ahumado con alucema (lavanda) , que era lo que se usaba en los braseros de picón.</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">La cubeta estaba compuesta como si se tratase de un cuadro, con una lámina comestible con la imagen de "La Chiquita Piconera" de D. Julio Romero de Torres, que descubrimos ante el jurado habiendo previamente ahumado con alucema (lavanda), como se usaba en los braseros de picón cordobeses.</p>
     </div>
   </div>
   
@@ -158,13 +160,21 @@ h1, h2, h3, h4, h5, h6 {
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-64" id="contact">
-    <h1>Contacto</h1><br>
-    <p>Nos encontramos en el barrio del Campo de la Verdad .</p>
-    <p class="w3-text-blue-grey w3-large"><b>Paseo Cristo del Descendimiento 4 Local 7</b></p>
-    <p>También puedes contactarnos por teléfono <a href="tel:+34624564326"> +34 624 564 326 </a> o por WHATSAPP.  <a href="https://wa.me/34624564326?text=Hola%2C%20Piamonte!" class="whatsapp-float" target="_blank"> <img src="whats.png" border="0">
-     </a>
-	</p>
-    
+    <h2>Contacto</h2><br>
+    <p>Nos encontramos en el barrio del <strong>Campo de la Verdad</strong>, en Córdoba.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Paseo Cristo del Descendimiento 4, Local 7 — 14009 Córdoba</b></p>
+    <p><strong>Horario:</strong> miércoles a domingo, de 17:30 a 00:30 h</p>
+    <p>Teléfono: <a href="tel:+34624564326">+34 624 564 326</a> &nbsp;|&nbsp;
+       WhatsApp: <a href="https://wa.me/34624564326?text=Hola%2C%20Piamonte!" class="whatsapp-float" target="_blank" rel="noopener"><img src="whats.png" alt="Contactar por WhatsApp con Piamonte D'Ambrosio" border="0"></a>
+    </p>
+    <div class="w3-margin-top" style="width:100%;height:300px;">
+      <iframe
+        title="Ubicación de Piamonte D'Ambrosio en Córdoba"
+        src="https://maps.google.com/maps?q=Paseo+Cristo+del+Descendimiento+4,+14009+C%C3%B3rdoba&output=embed"
+        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
   </div>
   
 <!-- End page content -->
