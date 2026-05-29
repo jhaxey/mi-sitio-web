@@ -2,27 +2,29 @@
 
 <html lang="es-ES">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Piamonte D’Ambrosio | Heladería Artesana en Córdoba</title>
 
-<meta name="description" content="Auténtico helado artesanal elaborado diariamente con ingredientes seleccionados, sabores únicos y tradición familiar, de la mano de José Ambrosio, maestro heladero con el premio al MEJOR HELADO DE TURRÓN  de España.">
+<meta name="description" content="Auténtico helado artesanal elaborado diariamente con ingredientes seleccionados, sabores únicos y tradición familiar, de la mano de José Ambrosio, maestro heladero con el premio al MEJOR HELADO DE TURRÓN de España.">
 
 <link rel="canonical" href="https://www.heladoartesano.com/">
 <!-- Open Graph data -->
- <meta property="og:title" content="PIAMONTE D AMBROSIO Helados Artesanos">
- <meta property="og:description" content="Heladeria Artesana en Córdoba con el premio al MEJOR HELADO DE TURRÓN DE ESPAÑA , donde José Ambrosio crea nuevos helados usando materia prima real">
- <meta property="og:image" content="https://heladoartesano.com/helado.jpg">
+ <meta property="og:title" content="Piamonte D’Ambrosio | Helados Artesanos en Córdoba">
+ <meta property="og:description" content="Heladería Artesana en Córdoba con el premio al MEJOR HELADO DE TURRÓN DE ESPAÑA, donde José Ambrosio crea helados usando materia prima real y productores locales.">
+ <meta property="og:image" content="https://heladoartesano.com/turron.jpg">
  <meta property="og:url" content="https://www.heladoartesano.com">
  <meta property="og:type" content="website">
- <meta property='og:site_name' content='Piamonte D Ambrosio , Helado artesano' />
- <meta property='article:published_time' content='2013-09-17T05:59:00+01:00' />
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta property="og:site_name" content="Piamonte D’Ambrosio Helado Artesano" />
+ <meta property="article:published_time" content="2013-09-17T05:59:00+01:00" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
 <link rel="stylesheet" href="style.css">
 <style>
 body {font-family: "Times New Roman", Georgia, Serif;}
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
+  font-family: "Playfair Display", Georgia, Serif;
   letter-spacing: 5px;
 }
 </style>
@@ -81,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Header -->
 <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
-  <img class="w3-image" src="turron.jpg" alt="Mejor Helado de Turrón de España" width="1600" height="800">
+  <img class="w3-image" src="turron.jpg" alt="Mejor Helado de Turrón de España" width="1600" height="800" loading="eager" fetchpriority="high">
   <div class="w3-display-bottomleft w3-padding-large w3-opacity">
     <h1 class="w3-xxlarge" style=color:white;>MMAHE 2024</h1>
   </div>
@@ -139,7 +141,7 @@ h1, h2, h3, h4, h5, h6 {
       <p class="w3-text-grey"> Si quieres un helado EXCLUSIVO, contacta con nosotros y nos pondremos manos a la obra para ofrecerte TU HELADO PERSONALIZADO</p><br>
     
       <h4>EVENTOS</h4>
-      <p class="w3-text-grey"></p>En breve dispondremos una foodtruck para tus eventos especiales<br>
+      <p class="w3-text-grey">En breve dispondremos una foodtruck para tus eventos especiales.</p>
     
       <h4>RESTAURACIÓN</h4>
       <p class="w3-text-grey">Tenemos registro sanitario con el que podemos ofrecer helado a restaurantes y catering </p><br>
@@ -148,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     </div>
     
     <div class="w3-col l6 w3-padding-large">
-      <img src="helado.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      <img src="helado.jpg" class="w3-round w3-image w3-opacity-min" alt="Helado artesano de Piamonte D'Ambrosio" style="width:100%" loading="lazy">
     </div>
   </div>
 
@@ -203,7 +205,9 @@ h1, h2, h3, h4, h5, h6 {
 
 <!-- Footer -->
 <footer class="w3-center w3-light-grey w3-padding-32">
-  
+  <p>&copy; <span id="year"></span> Piamonte D'Ambrosio &mdash; Heladería Artesana en Córdoba</p>
+  <p><a href="https://www.instagram.com/ilpiamonte/" target="_blank" rel="noopener">@ilpiamonte</a></p>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </footer>
 
 </body>
