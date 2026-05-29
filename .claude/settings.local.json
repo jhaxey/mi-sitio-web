@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh auth *)",
+      "Bash(gh --version)",
+      "PowerShell(gh --version 2>&1)"
+    ]
+  }
+}
